@@ -1,0 +1,1834 @@
+{
+  "aemet": {
+    "keyAemet": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbGthZGVtdGNAZ21haWwuY29tIiwianRpIjoiMmMxZmUzMjQtNDRlYi00NjU4LTliMzUtYWNhYjE0MDlhOTFlIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE1NDAyMjYzODAsInVzZXJJZCI6IjJjMWZlMzI0LTQ0ZWItNDY1OC05YjM1LWFjYWIxNDA5YTkxZSIsInJvbGUiOiIifQ.9aGbykReEwcbqV0B5h1AAFy5mAu5__Qht5CgCMWDkvY",
+    "urlEstaciones": "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones/"
+  },
+  "rutas": {
+    "rutaHDFS": "hdfs://localhost:9000",
+    "rutaProyecto": "/home/javier/Proyectos/modeloContaminacion"
+  },
+  "sensoresAmbientales": [
+    {
+    "fecha": "enero2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "ene_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "feb_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "mar_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "abr_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "may_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "jun_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2010",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "jul_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "ago_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "sep_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "oct_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "nov_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2010",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2010/",
+    "datos":
+        {
+          "nombre": "dic_mo10.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "ene_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "feb_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "mar_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "abr_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "may_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "jun_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "jul_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "ago_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "sep_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "oct_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "nov_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2011",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2011/",
+    "datos":
+        {
+          "nombre": "dic_mo11.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "ene_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "feb_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "mar_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "abr_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "may_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "jun_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "jul_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "ago_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "sep_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "oct_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "nov_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2012",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2012/",
+    "datos":
+        {
+          "nombre": "dic_mo12.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "ene_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "feb_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "mar_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "abr_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "may_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "jun_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "jul_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "ago_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "sep_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "oct_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "nov_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2013",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2013/",
+    "datos":
+        {
+          "nombre": "dic_mo13.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "ene_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "feb_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "mar_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "abr_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "may_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "jun_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "jul_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "ago_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "sep_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "oct_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "nov_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2014",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2014/",
+    "datos":
+        {
+          "nombre": "dic_mo14.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "ene_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "feb_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "mar_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "abr_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "may_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "jun_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "jul_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "ago_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "sep_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "oct_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "nov_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2015",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2015/",
+    "datos":
+        {
+          "nombre": "dic_mo15.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "ene_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "feb_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "mar_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "abr_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "may_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "jun_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "jul_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "ago_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "sep_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "oct_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "noviembre2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "nov_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "diciembre2016",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2016/",
+    "datos":
+        {
+          "nombre": "dic_mo16.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "enero2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "ene17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "febrero2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "feb17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "marzo2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "mar17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "abril2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "abr17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "mayo2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "may17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "junio2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "jun17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "julio2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "jul17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "agosto2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "ago17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "septiembre2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "sep17.txt",
+          "tipo": "csv",
+          "separador": null
+        }
+    },
+    {
+    "fecha": "octubre2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "oct17.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "noviembre2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "nov17.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "diciembre2017",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2017/",
+    "datos":
+        {
+          "nombre": "dic17.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "enero2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "ene_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "febrero2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "feb_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "marzo2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "mar_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "abril2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "abr_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "mayo2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "may_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "junio2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "jun_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "julio2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "jul_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "agosto2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "ago_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    },
+    {
+    "fecha": "septiembre2018",
+    "ruta": "/home/javier/Proyectos/ingestas/datos/sensores2018/",
+    "datos":
+        {
+          "nombre": "sep_mo18.txt",
+          "tipo": "csv",
+          "separador": ","
+        }
+    }
+  ],
+  "datosTrafico": [
+      {
+      "fecha": "enero2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "01-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "02-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "03-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "04-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "05-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "06-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "07-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "08-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "09-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "10-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "noviembre2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "11-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "diciembre2013",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2013/",
+      "datos":
+          {
+            "nombre": "12-2013.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+    {
+      "fecha": "enero2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "01-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "02-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "03-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "04-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "05-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "06-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "07-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "08-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "09-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "10-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "noviembre2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "11-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "diciembre2014",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2014/",
+      "datos":
+          {
+            "nombre": "12-2014.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+    {
+      "fecha": "enero2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "01-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "02-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "03-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "04-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "05-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "06-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "07-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "08-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "09-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "10-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "noviembre2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "11-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "diciembre2015",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2015/",
+      "datos":
+          {
+            "nombre": "12-2015.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "enero2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "01-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "02-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "03-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "04-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "05-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "06-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "07-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "08-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "09-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "10-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "noviembre2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "11-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "diciembre2016",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2016/",
+      "datos":
+          {
+            "nombre": "12-2016.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+    {
+      "fecha": "enero2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "01-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "02-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "03-2017.csv",
+            "tipo": "csv",
+            "separador": ",",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "04-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "05-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "06-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "07-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "08-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "09-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "10-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "noviembre2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "11-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "diciembre2017",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2017/",
+      "datos":
+          {
+            "nombre": "12-2017.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+    {
+      "fecha": "enero2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "01-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "febrero2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "02-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "marzo2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "03-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "abril2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "04-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "mayo2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "05-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "junio2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "06-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "julio2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "07-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "agosto2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "08-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "septiembre2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "09-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      },
+      {
+      "fecha": "octubre2018",
+      "ruta": "/home/javier/Proyectos/ingestas/datos/vehiculos2018/",
+      "datos":
+          {
+            "nombre": "10-2018.csv",
+            "tipo": "csv",
+            "separador": ";",
+            "cabecera": "true"
+          }
+      }
+    ]
+}
